@@ -28,7 +28,7 @@ $config = array(
 	'db_type'		=>		'pdo',
 	
 	// Хост БД.
-	'db_hostname'	=>		'if38.nano.lv',
+	'db_hostname'	=>		'host',
     
 	// Порт БД.
 	'db_port'	    =>		3306,
