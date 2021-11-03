@@ -1,0 +1,173 @@
+.block {
+    min-height: 200px;
+}
+
+.block img.main {
+    float: left;
+    padding: 0px 5px;
+    width: 35%;
+}
+
+.block img.provider_logo {
+    position: relative;
+    left: 0px;
+    float: none;
+    height: 100px;
+}
+
+.block ul {
+    float: left;
+    width: 60%;
+}
+
+.block ul img {
+    width: auto;
+    height: 70px;
+}
+
+.block a.link {
+    color: #263a5b;
+    padding: 5px 20px;
+    transition: all .4s;
+    margin: 5px 0px;
+}
+
+.block a.link:hover {
+    color: #000;
+    background-color: #ececec;
+    transition: all .2s;
+
+}
+
+img.product_img {
+    width: 45%;
+}
+
+a.product {
+    position: relative;
+    display: block;
+    border: 1px solid #ddd;
+    margin: 1%;
+    width: 31%;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    color: #000;
+    transition: all .2s;
+}
+
+a.product:hover {
+    text-decoration: none;
+    border-color: #a55;
+    transition: all .2s;
+}
+
+a.product .main {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+}
+
+a.product img {
+    padding: 1px !important;
+    margin: 0px 1%;
+    position: relative;
+    height: 100%;
+    width: auto;
+    float: none;
+}
+
+a.product p {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    overflow: hidden;
+    height: 38%;
+}
+
+a.product i {
+    width: 100%;
+    display: block;
+    padding: 3px 10px;
+    font-size: 15px;
+    text-align: right;
+    background-color: #ececec;
+    height: 7%;
+    position: absolute;
+    bottom: 0px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0px 20%;
+}
+
+tr {
+    font-size: 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+tr td:nth-child(2) {
+    color: #555;
+}
+
+@media all and (max-width: 800px) {
+    .block img.main {
+        display: none
+    }
+
+    .block ul {
+        float: left;
+        width: 100%;
+    }
+
+    a.product {
+        width: 48%;
+    }
+}
+
+@media all and (max-width: 675px) {
+
+    a.product {
+        width: 95%;
+    }
+
+    a.product .main {
+        height: 55%;
+    }
+
+    a.product p {
+        height: 24%;
+        font-size: 15px;
+    }
+
+    a.product i {
+        height: 8%;
+        font-size: 13px;
+    }
+
+    img.product_img {
+        width: 90%;
+    }
+
+    table {
+        width: 89%;
+        margin: 0px 5%;
+    }
+}
+
+@media all and (max-width: 350px) {
+
+    a.product .main {
+        height: 32%;
+    }
+
+    a.product p {
+        height: 45%;
+    }
+}

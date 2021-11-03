@@ -1,0 +1,22 @@
+.adm{
+    background-color: #999999;
+    padding: 10px 0px;
+}
+.adm ul{
+    padding: 0px 20% 10px 20%;
+}
+.adm li{
+    list-style: none;
+    float: left;
+}
+.adm li a{
+    font-size: 20px;
+    padding: 5px 15px;
+    color: #fff;
+}
+.adm li a:hover{
+    background-color: #888;
+}
+.container{
+    margin-top: 30px;
+}
