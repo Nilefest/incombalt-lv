@@ -1,4 +1,3 @@
-# incombalt.mvc
-Old site with simple-frameworl
+# [2019] - Simple Business card website for incombalt.lv
 
 https://www.incombalt.lv/?lang=rus
